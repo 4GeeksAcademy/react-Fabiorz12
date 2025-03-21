@@ -1,4 +1,4 @@
-import React from 'react'
+import React, { StrictMode } from 'react'
 import ReactDOM from 'react-dom/client'
 
 //Bootstrap
@@ -16,3 +16,4 @@ ReactDOM.createRoot(document.getElementById('root')).render(
     <Home/>
   </React.StrictMode>,
 )
+

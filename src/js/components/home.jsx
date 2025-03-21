@@ -5,6 +5,7 @@ import Jumbotron from "./jumbotron.jsx";
 import Footer from "./footer.jsx";
 
 
+
 const cards = [
     {
         image: "https://picsum.photos/id/11/200/300",
@@ -30,7 +31,7 @@ const cards = [
 
 const Home = () => {
     return(
-        <div>
+        <div className="text-center">
             <Navbar/>
             <Jumbotron/>
             <div className="container">
